@@ -47,6 +47,7 @@ app.post("/user/registe", async (req, res) => {
     if (keys.length != 2 || !"username" || !"password") {
       return res.status(400).json({ message: "only username and password" });
     }
+    
     if (users.some((u) => u.username === username)) {
       console.log(password);
       return res.status(400).json({ message: "Username already exists" });
