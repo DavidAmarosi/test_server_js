@@ -1,0 +1,27 @@
+{
+  "name": "test_server_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidAmarosi/test_server_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DavidAmarosi/test_server_js/issues"
+  },
+  "homepage": "https://github.com/DavidAmarosi/test_server_js#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}

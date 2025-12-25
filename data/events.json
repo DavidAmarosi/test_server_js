@@ -1,0 +1,22 @@
+[
+  {
+    "eventName": "fotbool",
+    "ticketsForSale": 5,
+    "createdBy": "john_doe"
+  },
+  {
+    "eventName": "basketball",
+    "ticketsForSale": 2,
+    "createdBy": "john_doe"
+  },
+  {
+    "eventName": "presentation",
+    "ticketsForSale": 50,
+    "createdBy": "john_doe"
+  },
+  {
+    "eventName": "appearance",
+    "ticketsForSale": 200,
+    "createdBy": "john_doe"
+  }
+]
